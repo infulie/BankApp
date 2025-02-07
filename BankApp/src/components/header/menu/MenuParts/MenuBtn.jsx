@@ -1,11 +1,12 @@
+import React from 'react';
 import classes from './menubtn.module.sass'
 
-const MenuBtn = () => {
+const MenuBtn = (props) => {
 
 
     return (
         <div className={classes.menubtn}>
-            <span></span>
+            <a href="">{props.name.title}</a>
         </div>
     );
 };
