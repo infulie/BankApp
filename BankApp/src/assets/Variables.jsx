@@ -21,3 +21,18 @@ export const framesData = [
 
     }
 ];
+
+export const namesData = [
+    {
+        id:1,
+        title:'Personal Banking'
+    },
+    {
+        id:1,
+        title:'Business Solutions'
+    },
+    {
+        id:1,
+        title:'Investment Services'
+    }
+]
