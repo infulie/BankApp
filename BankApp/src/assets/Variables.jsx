@@ -36,3 +36,40 @@ export const namesData = [
         title:'Investment Services'
     }
 ]
+
+export const formData = [
+    {
+        id: 1,
+        inside:'Name',
+        ident:'name',
+        description:"Put your Name",
+        type:'text'
+    },
+    {
+        id: 2,
+        inside:'Lastname',
+        ident:'lastName',
+        description:"Put your lastname",
+        type:'text'
+    },
+    {
+        id: 3,
+        inside:'+7 777 777 77 77',
+        ident:'phoneNumber',
+        description:"Put your phone number",
+        type:'num'
+    },
+    {
+        id: 4,
+        inside:'email@example.com',
+        ident:'email',
+        description:"Put your e-mail address",
+        type:'email'
+    }
+
+
+]
+
+export const fiic = function handleInsideInputChange (event) {
+    setInsideInput(event.target.value)
+}
