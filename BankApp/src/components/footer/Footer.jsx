@@ -5,6 +5,7 @@ const Footer = () => {
     return (
         <footer>
             <span>Все права защищены</span>
+            <span>сделано приколистом <br/>Карибовым Константином</span>
         </footer>
     );
 };
