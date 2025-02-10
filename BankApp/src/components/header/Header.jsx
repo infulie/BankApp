@@ -16,7 +16,6 @@ const Header = () => {
         <header>
             <Menu />
             <Slider images={images} />
-
         </header>
     );
 };

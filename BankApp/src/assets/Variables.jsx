@@ -28,11 +28,11 @@ export const namesData = [
         title:'Personal Banking'
     },
     {
-        id:1,
+        id:2,
         title:'Business Solutions'
     },
     {
-        id:1,
+        id:3,
         title:'Investment Services'
     }
 ]
@@ -69,7 +69,3 @@ export const formData = [
 
 
 ]
-
-export const fiic = function handleInsideInputChange (event) {
-    setInsideInput(event.target.value)
-}

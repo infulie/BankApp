@@ -11,7 +11,7 @@ const About = () => {
     return (
         <div className={classes.about}>
             {frames.map((AbtFr) =>(
-                <AboutFrame frame={AbtFr} title={AbtFr.title} description={AbtFr.description} />
+                <AboutFrame key={AbtFr.id} frame={AbtFr} title={AbtFr.title} description={AbtFr.description} />
                 ))}
         </div>
     );

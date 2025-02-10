@@ -4,8 +4,8 @@ import logo from './logo.svg';
 const Logo = () => {
     return (
         <a href="#" className={classes.logo}>
-            <a href="#"><img src={logo} alt="logo" /></a>
-            <a href="#">Zbank</a>
+            <span><img src={logo} alt="logo" /></span>
+            <span>Zbank</span>
         </a>
     );
 };

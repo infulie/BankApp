@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './formInput.module.sass'
-import {fiic} from "../../../../../assets/Variables.jsx";
+
 
 const FormInput = (props) => {
 
